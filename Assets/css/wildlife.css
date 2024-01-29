@@ -1,0 +1,21 @@
+.wild {
+    padding: 50px;
+}
+
+.wild h1, p {
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+table {
+    margin-left: 80px;
+    margin-top: -250px;
+}
+
+.table-data p {
+    width: 80%;
+    text-align: justify;
+    margin-left: 2rem;
+}

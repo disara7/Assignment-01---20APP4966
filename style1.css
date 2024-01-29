@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.banner{
+    width:100%;
+    height:100vh;
+    background-image:url(2150793397.jpg);
+    background-size:cover;
+    background-position:center;
+    background-color:#fofofo;
+}
+.navigation-links{
+    text-align:center;
+    padding:2% 6%;
+}
+.navigation-links ul li{
+    flex:1;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    list-style:none;
+}
+.navigation-links ul li a{
+    color:#FF8C00;
+    text-decoration: none;
+    font-family: 'Lato',sans-serif;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:#FF8C00;
+}
+ul li{
+    display:inline-block;
+}
+.title{
+    font-family: font-family: font-family: 'Bebas Neue', sans-serif;
+font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+color: #fff;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-items: center;
+    text-align: center;
+    margin:40px 20px 0 20px;
+}
+.container .heading{
+   
+    
+}
+.container .heading h3 {
+    font-size:3em;
+    font-weight:bolder;
+    padding-bottom: 10px;
+    border-bottom:3px solid #222;
+}
+.container .heading h3 span{
+   
+    font-weight:100;
+   
+}
+.container .box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.container .box .dream{
+    display:flex;
+    flex-direction: column;
+   width: 32.5%;
+}
+.container .box .dream img{
+    width:100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
